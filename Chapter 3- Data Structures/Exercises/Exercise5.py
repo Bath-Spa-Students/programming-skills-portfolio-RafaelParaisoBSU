@@ -19,7 +19,7 @@ print (f"Sorry, {name} is sick and cant go to the dinner party.")
 del(guests[4])
 guests.insert(4, 'Marion')
 
-#Re-inviting the other Guests
+#Re-inviting the other Guests.
 
 name = guests[0].title()
 print (f'\n{name}, would you like to join us for dinner at 8PM sharp tonight?')

@@ -1,3 +1,5 @@
+# Think of at least five places in the world you’d like to visit.
+
 TouristSpots = ['Las Vegas, USA', 'Mt. Taal, Philippines', 'Burj Khalifa, U.A.E', 'Akihabara, Japan', 'Giza, Egypt']
 
 print ("In Original Order:")

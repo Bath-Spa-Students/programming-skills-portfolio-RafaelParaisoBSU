@@ -17,7 +17,7 @@ print (f"\nSorry, {name} is sick and cant go to the dinner party.")
 
 
 # Paul couldn't make the dinner party, Let's go invite Marion to take his place.
-print ("\nPaul couldn't make the dinner party, Let's go invite Marion to take his place.")
+print ("\n Paul couldn't make the dinner party, Let's go invite Marion to take his place.")
 del(guests[4])
 guests.insert(4, 'Marion')
 
