@@ -13,5 +13,5 @@ Code_glossary = {
     'Tuple': 'An list that can ordered or collected but not changed.',
     }
 
-for word, definition in Code_glossary.items():
-    print("\n" + word.title() + ": " + definition) 
+for word, definition in Code_glossary.items(): # Uses a for-loop to print all the items in the dictionary.
+    print("\n" + word.title() + ": " + definition) # Uses an f-string to format the keys and values in one string.

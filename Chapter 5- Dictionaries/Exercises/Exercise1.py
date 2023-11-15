@@ -6,8 +6,9 @@ person = {
     'Age': 17,
     'City': 'Sharjah',
     }
+# Creates a dictionary containing the keys and values.
 
-print(person['First_Name'])
-print(person['Last_Name'])
-print(person['Age'])
-print(person['City'])
+print(person['First_Name']) # Prints the specific item in the dictionary.
+print(person['Last_Name']) # Prints the specific item in the dictionary.
+print(person['Age']) # Prints the specific item in the dictionary.
+print(person['City']) # Prints the specific item in the dictionary.

@@ -1,37 +1,9 @@
-guests = ['Wayeth', 'Joshua', 'Andrei', 'Isaac', 'Paul']
+# You just heard that one of your guests can’t make the dinner, so you need to send out a new set of invitations. You’ll have to think of someone else to invite.
 
-name = guests[0].title()
-print (f'{name}, would you like to join us for dinner at 8PM sharp tonight?')
+guestlist = ['Wayeth', 'Joshua', 'Andrei', 'Isaac', 'Paul'] # Stores the strings into a list.
 
-name = guests[1].title()
-print (f'{name}, do you mind joining us for dinner at 8PM sharp tonight?')
+print("Paul wont make it to the dinner! Let's invite someone else.")
+guestlist[4] = ("Marion")
 
-name = guests[2].title()
-print (f'{name}, how does dinner sound at 8PM, Monday?')
-
-name = guests[3].title()
-print (f"{name}, theres a party at Rafael's place tonight, you coming?")
-
-name = guests[4].title()
-print (f"Sorry, {name} is sick and cant go to the dinner party.")
-
-# Paul couldn't make the dinner party, Let's go invite Marion to take his place.
-del(guests[4])
-guests.insert(4, 'Marion')
-
-#Re-inviting the other Guests.
-
-name = guests[0].title()
-print (f'\n{name}, would you like to join us for dinner at 8PM sharp tonight?')
-
-name = guests[1].title()
-print (f'{name}, do you mind joining us for dinner at 8PM sharp tonight?')
-
-name = guests[2].title()
-print (f'{name}, how does dinner sound at 8PM, Monday?')
-
-name = guests[3].title()
-print (f"{name}, theres a party at Rafael's place tonight, you coming?")
-
-name = guests[4].title()
-print (f"{name}, Have you heard of the party happening at Rafael's place at 8PM? Should we join them?")
+for guests in guestlist: # Uses a for-loop to loop through all the items in the list.
+    print (f"Hello {guests}, would you like to have dinner at 8PM?") # Uses an f-string to format the variable into the string.

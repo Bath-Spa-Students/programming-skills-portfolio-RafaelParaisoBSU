@@ -6,14 +6,14 @@
 
 #•Write one version of this program that runs the if block and another that runs the else block.
 
-Alien_Color = 'Dark_Green'
+Alien_Color = 'Dark_Green' # Stores a string in a variable.
 
-if Alien_Color == 'Dark_Green':
+if Alien_Color == 'Dark_Green': # If statement that prints if the variable is "Dark Green"
         print ("Wow! You just won 5 points!")
-else:
+else: # Will print a different string if the input is different from the if statement.
         print ("Congrats! You just won 10 points!")
 
-Alien_Color = 'Bright_Pink'
+Alien_Color = 'Bright_Pink' # Re-assigns the string to the the variable.
 
 if Alien_Color == 'Dark_Green':
         print ("Wow! You just won 5 points!")

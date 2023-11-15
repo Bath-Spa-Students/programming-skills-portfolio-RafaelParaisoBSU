@@ -14,13 +14,13 @@ Major_Rivers = {
     'Indus': 'Himalayas',
     }
 
-for river, country in Major_Rivers.items():
-    print("The " + river.title() + " flows through " + country.title() + ".")
+for river, country in Major_Rivers.items(): # Uses a for-loop to print all the items in the dictionary.
+    print("The " + river.title() + " flows through " + country.title() + ".") # Uses an f-string to format the keys and values in one string.
 
-print("\nThe following rivers are included in this data set:")
-for river in Major_Rivers.keys():
-    print("- " + river.title())
+print("\nThese are the rivers that are included in this dictionary:")
+for river in Major_Rivers.keys(): # Uses a for-loop to get only the keys in the dictionary.
+    print("- " + river.title()) # Uses an f-string to format the keys and values in one string.
 
-print("\nThe following countries are included in this data set:")
-for country in Major_Rivers.values():
-    print("- " + country.title())
+print("\nThese are the countries that are included in this dictionary:")
+for country in Major_Rivers.values(): # Uses a for-loop to get only the values in the dictionary.
+    print("- " + country.title()) # Uses an f-string to format the keys and values in one string.

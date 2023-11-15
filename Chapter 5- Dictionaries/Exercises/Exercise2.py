@@ -10,17 +10,5 @@ Code_glossary = {
 
 #Print each word and its meaning as neatly formatted output. You might print the word followed by a colon and then its meaning, or print the word on one line and then print its meaning indented on a second line. Use the newline character (\n) to insert a blank line between each word-meaning pair in your output.
 
-word = 'String'
-print("\n" + word.title() + ": " + Code_glossary[word])
-
-word = 'Variable'
-print("\n" + word.title() + ": " + Code_glossary[word])
-
-word = 'Comments'
-print("\n" + word.title() + ": " + Code_glossary[word])
-
-word = 'Dictionary'
-print("\n" + word.title() + ": " + Code_glossary[word])
-
-word = 'Bug'
-print("\n" + word.title() + ": " + Code_glossary[word])
+for word, value in Code_glossary.items(): # Uses a for-loop to print all the items in the dictionary.
+    print (f"{word}  -  {value}\n") # Uses an f-string to format the keys and values in one string.
